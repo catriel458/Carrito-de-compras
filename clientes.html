@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/pizzas.js"></script>
+    <script src="js/index.js" defer></script>
+    <script src="js/cartService.js" defer></script>
+    <script src="js/app.js" defer></script>
+    
+    <link rel="icon" href="favicon.ico">
+    <title>Clientes</title>
+</head>
+<body>
+
+    <header  class = "header">
+        <nav>
+            <a href="index.html"> <img src="pizza.png" alt="logo" id="logo"></a>
+            <div>
+                <a href="clientes.html">Clientes</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="cart.html" id="car"><img src="carrito.png" alt="carrito"><span id="cuenta-carrito">0</span></a>
+            </div>
+        </nav>
+        </header>
+    
+       <main>
+        
+        <div class = "contenedor-form">
+        <form action="" method="post" id="form">
+         <div class="form">
+            <h1>Registrarse</h1>
+            <div class="grupo">
+                <input type="text" name="" id = "name" ><span class="barra"></span>
+                <label for="">Nombre</label>
+            </div>
+            <div class="grupo">
+                <input type="email" name="" id = "email" ><span class="barra"></span>
+                <label for="">Email</label>
+            </div>
+            <div class="grupo">
+                <input type="password" name="" id = "password" ><span class="barra"></span>
+                <label for="">Password</label>
+            </div>
+
+            <button type="submit" class = "btn-form">Suscribirse</button>
+            <p class = "warnings" id="warnings"></p>
+
+         </div>
+
+        </form>
+        
+        </div>
+       </main>
+
+        <footer>
+
+            <p>La Plata - Whatsapp: 2213557519</p>
+    
+        </footer>
+
+</body>
+</html>
